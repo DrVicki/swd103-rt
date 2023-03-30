@@ -16,43 +16,20 @@ The first real example you will build is a really simple greeting app that’s g
 
 ### [Get Starter Code Replit](https://stackblitz.com/edit/l01practicehandson?file=src/App.js)
 
-### Add Parcel Bundler
+
+**Note** You don’t need to do any configuration to make it work, because you’re using `Parcel`.
 
 What you find with most real-life React projects is they will be adding the React libraries with `npm` and usually use a code bundler such as `Webpack`, or even the Create React App starter project (which uses `Webpack` under the hood).
-
-You' will do something similar so you get familiar with using a common means to build and run a React project. For this, use `Parcel JS`.
-
-`Parcel JS` is a simple code bundler much like `Webpack`, but without much of the complex configuration and setup. In its own words `Parcel JS` is a ‘blazing fast, zero-config web application bundler’.
-
-Open the [Parcel JS](https://parceljs.org) website and head to the ‘getting started’ section for additional information. 
-
-- Install it by adding it to "**DEPENDENCIES**".
-
-![](Lesson-1-Media/parcel-bundler.png)
-
-- Hit "**Enter**"
-
-
-## Add React to the Project
-
-You don’t need to do any configuration to make it work, because you’re using `Parcel`. You **do need** to add React to your project.
-
 
 ### Check `packkage.json` for React Dependencies
 
 3. There are two packages you need; `React`, and `React DOM`. 
 - `React` is the star of the show and includes the core `React` library. 
 - `React DOM` is a secondary package responsible for rendering  `components` to the `DOM` in the browser.
+- `parcel-bundler`
 
 ![](Lesson-1-Media/react-dependencies.png)
 
-5. You should see the `react` and `react-dom` dependencies in there.
-
-After you build your app, call `Parcel` to bundle everything, and run it. It’s not a huge job, but you can add a simple shortcut to help out.
-
-In your `package.json` file, add a new property, ‘`scripts`’ and add a new command property under this and call it ‘`start`’. Next, add the command:
-
-`Parcel` works by giving the app an entry point, in this case, your `index.html` file which you build next. From there, `Parcel` determines which files it needs to include in the bundle based on your imports and file references.
 
 ## Code the Project Files
 
@@ -360,10 +337,10 @@ For these cases, use the `React.Fragment` syntax. Use the `React.Fragment` synta
 // both of these statements are equal
 render() {
     return (
-<React.Fragment>
+
  <h1>Welcome to the app</h1>
  <p>Hi there!</p>
-</React.Fragment>
+
    );
   }
 }

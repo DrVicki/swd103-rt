@@ -25,9 +25,9 @@ Before you move on to your big project in this lesson, take some time to familia
 
 ## Get Starter Code Replit
 
-	- Fork the repository
-	- Name it l02handsonpplication
-	- Open your newly forked repository to start working on it.
+- Fork the repository
+- Name it l02handsonpplication
+- Open your newly forked repository to start working on it.
 
 **Note** You don’t need to do any configuration to make it work, because you’re using `Parcel`.
 
@@ -39,7 +39,7 @@ Before you move on to your big project in this lesson, take some time to familia
 
 - You should see the `react` and `react-dom` dependencies in your `package.json` as below.
 
-![React Dependencies](Lesson-2-Media/react-dependencies.png)
+![](Lesson-2/Lesson-2-Media/react-dependencies.png)
 
 After your app is ready, call `Parcel` to bundle everything, and run it. It’s not a huge job, but you can add a simple shortcut to help out.
 
@@ -73,7 +73,7 @@ root.render(
 
 ```
 
-###App.js
+### App.js
 
 In your `App` component, the main starting point for your React app, use a Hook, the `useState` Hook.
 
@@ -82,7 +82,7 @@ In your `App` component, the main starting point for your React app, use a Hook,
 ```
 import React, { useState } from 'react';
 
-import './styles.css';
+import './style.css';
 
 // components
 import UseStateExample from './UseStateExample';
@@ -200,40 +200,6 @@ form button {
 }
 ```
 
-
-```
-body {
-  font-size: 16px;
-  line-height: 1.4;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 5em;
-}
-
-p {
-  margin-bottom: 1.6em;
-}
-
-input {
-  padding: 0.5em 1em;
-  line-height: 1;
-  font-size: 18px;
-  border: 1px solid #ececec;
-}
-
-button {
-  border: 1px solid #ececec;
-  background: #ececec;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-button:hover {
-  background: #c9c6c6;
-}
-```
-
 You see some simple styles that just affect the `body`, `font size`, and `line-height`. Later, you add an `input` and a `button` to your app, so you also added some nice styles for those.
 
 'Save' file.
@@ -271,7 +237,7 @@ Your project is set up and ready to run. Add necessary files to your project bef
 
 With the basic files set up and ready, take a closer look at the `useState` and `useEffect` Hooks.
 
-## The useState Hook Explanation Section)
+## The useState Hook (Explanation Only)
 
 `useState` is a direct replacement for the class-based `state` you see used in this manner:
 
@@ -334,7 +300,7 @@ With the explanation out of the way, build a little example app to demonstrate h
 
 First: open the `UseStateExample.jsx` file, where you’ll import React and create the empty component’s skeleton:
 
-**UseStateExample.jsx**</summary>**
+**UseStateExample.jsx**
 
 ```
 import React, { useState } from 'react';
@@ -461,7 +427,7 @@ export default UseStateExample;
 
 Next, add `HTML` form:
 
-**UseStateExample.jsx<**
+**UseStateExample.jsx**
 
 ```
      
@@ -642,7 +608,7 @@ export default UseStateExample;
 ```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createRoot } from 'reacr-dom/client;
+import { createRoot } from 'react-dom/client;
 ​
 import App from './App';
 ```
@@ -787,6 +753,8 @@ You may be asking ‘won’t this just trigger this effect to be called again, e
 
 With all your logic in place, process the images and display an attractive gallery of sweet dogs to your users.
 
+**UseEffectExample.jsx**
+
 ```
  
 return 
@@ -893,4 +861,22 @@ const UseEffectExample = () => {
 
 export default UseEffectExample;
 ```
+---
+
+## Submit
+
+Include the submit zip folder box here, with link to open code solution after submission.
+
+
+---
+
+
+<div class="panel panel-danger">
+    <div class="panel-heading">
+        <h3 class="panel-title">Caution!</h3>
+    </div>
+    <div class="panel-body">
+        <p>Be sure to zip up all of your documents to submit them</p>
+    </div>
+</div>
 

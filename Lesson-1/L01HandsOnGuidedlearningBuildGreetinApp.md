@@ -629,12 +629,21 @@ Because your `state` value `this.state.displayName` is empty (`false`) by defaul
 
 In the next section, you refactor your `App` component into smaller components and introduce some React Hooks.
 
+---
+
+### Submit
+
+Include the submit zip folder box here, with link to open code solution after submission.
+
+
+---
+
+
 <div class="panel panel-danger">
     <div class="panel-heading">
         <h3 class="panel-title">Caution!</h3>
     </div>
     <div class="panel-body">
-        <p>Be sure to zip up all of your documents in order to submit them</p>
+        <p>Be sure to zip up all of your documents to submit them</p>
     </div>
 </div>
-

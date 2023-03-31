@@ -7,7 +7,14 @@
 2. Deploy your App to Netlify
 3. Provide URL to the deployed application
 
-### Step One - Create a New Account on Netlify
+**NOTE**
+
+You will use your successfully completed Lesson 3 Hands On.
+
+- `Furry Friends`, or
+- `React-API`
+
+## Step One - Create a New Account on Netlify
 
 This is the easy part. Head to [Netlify](https://www.netlify.com/) and you’ll be greeted with the company’s landing page. Look for the ‘Sign up ->’ button on the top right-hand side of the screen and click it.
 

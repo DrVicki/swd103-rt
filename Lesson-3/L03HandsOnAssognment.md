@@ -220,6 +220,32 @@ This code iterates to the data which stored in users state and outputs the name 
 
 That’s how easy it is to retrieve API data with React!
 
+### Push to GitHub
+
+On Stackblitz, click **Connect Repository** at the top.
+
+[](L03HandsOnAssognment.md)
+
+Name your repository.
+
+![](Lesson-3-Media/name-repo.png)
+
+Click **Create Repo and Push**
+
+You can see your repo is created, on `main`branch. The repo name `DrVicki/react-apis` is visible at the top.
+
+![](Lesson-3-Media/created-repo.png)
+
+Click on Repo Name, and the repository in GitHub will open.
+
+![](Lesson-3-Media/repo-in-github.png)
+
+Fantastic!!
+
+**Note**
+
+Your project will need to be in a GitHub Repository for Deployment in Lesson 4.
+
 
 ### Submit
 

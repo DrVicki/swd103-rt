@@ -11,6 +11,12 @@ This code-along assignment walks through building a fully-functioning picture ga
 5. Zip `L02ReactHandsOnPProject2` Folder
 6. Attach the zipped folder below where indicated for submission.
 
+### ANNOUNCEMENT
+
+At this point, you will be coding functions, objects, and imports. The live preview will not always diplay something after each code block, because many times, to render requires what you have not yet coded.
+
+- Unless you are receiving errors, everything is fine. Just keeo coding. You will know when something should display, because there will be a screenshot here in the instructions of what it should resemble,
+
 ### Introduction
 
 As you experienced in the quick code along of the Furry Friend Gallery, you will build an app that talks to your familiar Dog CEO API, loads in a few starter pictures before turning control over to the user, allowing them to choose several images they’d like to fetch.
@@ -1034,3 +1040,4 @@ If everything’s working as planned, you should have a great looking site that 
 
 1. Zip the Project Folder
 2. Upload the zipped folder
+

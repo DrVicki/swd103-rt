@@ -611,6 +611,8 @@ Fantastic!! Everything for this Greetings App is finished. Save everything and r
 
 This refactoring process isn’t too painful, but you can see already how your `App` component is much smaller, much neater, and more modular. What you have now is a bunch of smaller components that contain their own logic and can be used throughout your app, as it grows and starts to expand with more sections.
 
+---
+
 ### Submit
 
 Include the submit zip folder box here, with link to open code solution after submission.
@@ -624,6 +626,6 @@ Include the submit zip folder box here, with link to open code solution after su
         <h3 class="panel-title">Caution!</h3>
     </div>
     <div class="panel-body">
-        <p>Be sure to zip up all of your documents in order to submit them</p>
+        <p>Be sure to zip up all of your documents to submit them</p>
     </div>
 </div>

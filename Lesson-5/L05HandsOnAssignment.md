@@ -31,8 +31,8 @@ In this app, you will take a simple HTML form powered by React and allow it to l
 
 It’s going to look like this when you’re done:
 
-![](../Lesson-5-Media/l05-form-builder-app%20(1).png)
--
+![](Lesson-5-Media/preview-formbuilder.png)
+
 ## Visualize the Components
 
 Before you start building anything in code, however, it’s a great place to practice some of our ‘thinking in React’ skills. 

@@ -1,4 +1,4 @@
-##  L07HandsOnAssignment Admin Console App
+##  L07HandsOnAssignment 
 
 Look at what you’ll be building:
 

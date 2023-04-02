@@ -220,6 +220,8 @@ And of course, you are free to use your own creativity in the `counter.css` file
 
 That's it, we have learned how to use Redux in React using this simple Counter application as an example. 
 
+![](Lesson-8-Media/redux-react-5.gif)
+
 #### Submission
 
 1. Zip the text document with project URL

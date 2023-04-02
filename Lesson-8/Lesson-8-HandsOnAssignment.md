@@ -43,7 +43,8 @@ Inside `store` we will have three files:
 
 3. `reducers.js`: we define our app’s initial state and our reducer.
 
-![](Lesson-8-Media/redux-react-6.webp)
+![](Lesson-8-Media/l08-file-structure.png)
+
 
 This is how things will look inside the project directory once we are done setting it up.
 
